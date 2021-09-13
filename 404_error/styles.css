@@ -1,0 +1,82 @@
+/*CSS*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: url("/tv_noise.jpg") no-repeat center;
+    background-size: cover;
+    font-size: 10px;
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    position: relative;
+}
+
+.error-box {
+    width: 38rem;
+    height: 30rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #181818;
+    box-shadow: 0px 0px 10px black;
+}
+
+.hbo-logo > img{
+    height: auto; 
+    width: auto; 
+    max-width: 35px; 
+    max-height: 35px;
+    margin: 1rem;
+}
+
+.content-sub {
+    text-align: center;
+    color: white;
+}
+
+.content-sub h1 {
+    font-size: 6rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.content-sub h2 {
+    background-color: white;
+    display: inline-block;
+    color: black;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: .5rem;
+}
+
+.content-sub p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.content-sub a {
+    text-decoration: none;
+    color: #957c09;
+    border: 2px solid #957c09;
+    padding: .9rem 1.4rem;
+    margin: 12px;
+    display: inline-block;
+    font-size: 1.3rem;
+    border-radius: .5rem;
+    transition: background-color 650ms;
+}
+
+.content-sub a:hover {
+    color: white;
+    background-color: #957c09;
+}
